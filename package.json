@@ -1,8 +1,8 @@
 {
-  "name": "avsc",
+  "name": "avsc-c2u",
   "version": "5.0.4",
-  "description": "Avro for JavaScript",
-  "homepage": "https://github.com/mtth/avsc",
+  "description": "Avro for JavaScript with support for mapping classes to Avro unions",
+  "homepage": "https://github.com/twinprime/avsc",
   "keywords": [
     "api",
     "avdl",
@@ -62,6 +62,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mtth/avsc.git"
+    "url": "git://github.com/twinprime/avsc.git"
   }
 }
