@@ -1,6 +1,6 @@
 {
   "name": "avsc-c2u",
-  "version": "5.0.4",
+  "version": "5.4.7",
   "description": "Avro for JavaScript with support for mapping classes to Avro unions",
   "homepage": "https://github.com/twinprime/avsc",
   "keywords": [
@@ -29,9 +29,11 @@
   ],
   "files": [
     "lib",
-    "etc/browser"
+    "etc/browser",
+    "types"
   ],
   "main": "./lib",
+  "types": "./types",
   "browser": {
     "./lib": "./etc/browser/avsc.js",
     "./lib/files": "./etc/browser/lib/files.js",
@@ -49,11 +51,10 @@
     "zuul": "zuul --no-coverage -- test/*.js"
   },
   "devDependencies": {
-    "benchmark": "^2.1.3",
-    "coveralls": "^2.12.0",
+    "coveralls": "^3.0.1",
     "istanbul": "^0.4.5",
-    "mocha": "^3.1.2",
-    "tmp": "^0.0.29"
+    "mocha": "^5.2.0",
+    "tmp": "^0.0.33"
   },
   "author": {
     "name": "Matthieu Monsch",
